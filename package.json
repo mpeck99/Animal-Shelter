@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "start":"nodemon --exec bable-node server.js --ignore public/",
-      "dev":"webpack -wd",
+    "start": "nodemon --exec bable-node server.js --ignore public/",
+    "dev": "webpack -wd"
   },
   "author": "Morgan Peck",
   "license": "ISC",
