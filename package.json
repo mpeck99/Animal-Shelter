@@ -1,7 +1,6 @@
 {
   "name": "animal-shelter",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node server.js --ignore public/",
@@ -27,6 +26,16 @@
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.7.0",
     "nodemon": "^1.17.3",
-    "webpack": "^4.5.0"
-  }
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpeck99/Animal-Shelter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mpeck99/Animal-Shelter/issues"
+  },
+  "homepage": "https://github.com/mpeck99/Animal-Shelter#readme",
+  "description": ""
 }
